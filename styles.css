@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    margin-top: 0; /* Remove margin-top to center vertically */
+    font-size: 5em;
+}
+
+#year {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    /* margin-top: 1em; */
+}
+
+#year-container {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.year-number {
+    display: block;
+    font-weight: bold;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
